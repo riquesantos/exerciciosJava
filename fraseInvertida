@@ -1,0 +1,24 @@
+// usuário digitará uma frase e mostrar esta frase invertida.
+
+import java.util.Scanner;
+public class exe1 {
+
+	public static void main(String[] args) {
+		
+			 String frase;
+			 char letra;
+			 
+       
+			 Scanner leitor = new Scanner(System.in);
+			 
+       
+			 System.out.println("Insira uma frase:");
+			 frase=leitor.nextLine();
+			 
+			 String invertida = new StringBuilder(frase).reverse().toString();
+			 System.out.println(""+ invertida);
+			 
+
+			}
+
+	}
